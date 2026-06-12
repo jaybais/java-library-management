@@ -1,4 +1,4 @@
-package com.library;
+package com.library.javalibrarymanagement;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
