@@ -18,7 +18,7 @@ A REST API for managing books, members, and checkouts built with Java and Spring
 5. H2 Console available at http://localhost:8080/h2-console
 
 ## Project Status
-In Progress - Phase 1 Complete (Project Setup)
+In Progress - Phase 3 complete: BookRepository with custom query methods
 
 ## Planned Features
 - Book management (CRUD)
