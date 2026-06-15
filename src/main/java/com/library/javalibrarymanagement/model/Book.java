@@ -24,7 +24,7 @@ public class Book {
     private String author;
 
     @NotNull
-    private Integer year;
+    private Integer publishedYear;
 
     private String genre;
 
@@ -35,10 +35,10 @@ public class Book {
     // Constructors
     public Book() {}
 
-    public Book(String title, String author, Integer year, String genre, String isbn) {
+    public Book(String title, String author, Integer publishedYear, String genre, String isbn) {
         this.title = title;
         this.author = author;
-        this.year = year;
+        this.publishedYear = publishedYear;
         this.genre = genre;
         this.isbn = isbn;
     }
@@ -53,8 +53,8 @@ public class Book {
     public String getAuthor() { return author; }
     public void setAuthor(String author) { this.author = author; }
 
-    public Integer getYear() { return year; }
-    public void setYear(Integer year) { this.year = year; }
+    public Integer getpublishedYear() { return publishedYear; }
+    public void setpublishedYear(Integer publishedYear) { this.publishedYear = publishedYear; }
 
     public String getGenre() { return genre; }
     public void setGenre(String genre) { this.genre = genre; }
